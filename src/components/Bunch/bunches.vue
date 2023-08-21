@@ -26,6 +26,7 @@
             'text-center',
             'bunch-item',
             'default',
+            'text-white',
             { padding100: !styleSmallScreen },
           ]"
         >

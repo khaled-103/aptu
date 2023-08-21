@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div >
     <header class="row justify-content-between">
       <div class="col-2 text-start mt-1" v-show="!applyMobileScreenMode">
         <router-link to="#"
@@ -490,6 +490,9 @@ export default {
 </script>
 
 <style scoped>
+.row{
+  margin-left: 0 !important;
+}
 header {
   padding: 10px 30px;
   box-shadow: -1px -1px 8px #9753a0 inset;

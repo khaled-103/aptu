@@ -16,7 +16,7 @@
             />
             <div class="card-body" style="background: transparent !important">
               <h5 class="card-title">تحليلات متقدمة</h5>
-              <p class="card-text">
+              <p class="card-text text-white">
                 تقارير تحليلية قياسية ومتقدمة تلخص لك مشهد العمليات المتشعبة
                 لإداراتك المختلفة
               </p>
@@ -37,7 +37,7 @@
             />
             <div class="card-body">
               <h5 class="card-title">تحليلات قياسية</h5>
-              <p class="card-text">
+              <p class="card-text text-white">
                 تقارير تحليلية قياسية ومتقدمة تلخص لك مشهد العمليات المتشعبة
                 لإداراتك المختلفة
               </p>

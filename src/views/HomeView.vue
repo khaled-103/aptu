@@ -7,7 +7,6 @@
       <programs/>
       <Featurs />
       <Reports />
-      <clients />
       <about />
       <Contact/>
       <Footer/>

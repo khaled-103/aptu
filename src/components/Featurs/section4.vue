@@ -3,7 +3,7 @@
     <div class="wraper text-center">
       <div style="width: 60%; margin: auto" class="py-5 text-white">
         <h4>العديد من الميزات والخصائص الرائعة في مكان واحد</h4>
-        <p>
+        <p class="text-white">
           آبتوس منصة إدارية ومالية شاملة صممت للمنشأة العصرية وروعي فيها العديد
           من المزايا الهامة التي تسهل عملها
         </p>
@@ -30,7 +30,7 @@ export default {
   right: 0;
   height: 100%;
   width: 100%;
-  background-image: url("@/assets/images/about/section5-back.png");
+  background-image: url("../../assets/images/about/section5-back.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
