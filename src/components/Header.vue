@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div class="container-fluid">
     <header class="row justify-content-between">
       <div class="col-2 text-start mt-1" v-show="!applyMobileScreenMode">
         <router-link to="#"
@@ -499,7 +499,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 10;
   background: white;
 }
