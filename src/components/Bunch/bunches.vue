@@ -6,7 +6,7 @@
           :class="[
             'text-center',
             'bunch-item',
-            'text-white',
+            
           { margintop65: !styleSmallScreen },
           ]"
         >
@@ -27,7 +27,6 @@
             'text-center',
             'bunch-item',
             'default',
-            'text-white',
             { padding100: !styleSmallScreen },
           ]"
         >
@@ -35,11 +34,11 @@
           <h6>
             <span> 150$ / y </span>
           </h6>
-          <p>جميع مميزات آبتوس بيسك</p>
-          <p>أدوات تسويقية</p>
-          <p>دعم جميع أنواع المنتجات</p>
-          <p>تقارير متقدمة</p>
-          <p>التحكم بتصميم المتجر</p>
+          <p class="text-white">جميع مميزات آبتوس بيسك</p>
+          <p class="text-white">أدوات تسويقية</p>
+          <p class="text-white">دعم جميع أنواع المنتجات</p>
+          <p class="text-white">تقارير متقدمة</p>
+          <p class="text-white">التحكم بتصميم المتجر</p>
           <button>اختر الباقة</button>
         </div>
       </div>
