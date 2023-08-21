@@ -6,7 +6,8 @@
           :class="[
             'text-center',
             'bunch-item',
-            { margintop65: !styleSmallScreen },
+            'text-white',
+          { margintop65: !styleSmallScreen },
           ]"
         >
           <h4>ابتوس بيسك</h4>
@@ -152,7 +153,7 @@
             <td><i class="fa-solid fa-check"></i></td>
             <td><i class="fa-solid fa-check"></i></td>
           </tr>
-                    <tr>
+          <tr>
             <th
               scope="row"
               class="text-center text-white"
@@ -208,7 +209,7 @@
             <td><i class="fa-solid fa-check"></i></td>
             <td><i class="fa-solid fa-check"></i></td>
           </tr>
-                    <tr>
+          <tr>
             <th
               scope="row"
               class="text-center text-white"
@@ -264,7 +265,7 @@
             <td><i class="fa-solid fa-check"></i></td>
             <td><i class="fa-solid fa-check"></i></td>
           </tr>
-                    <tr>
+          <tr>
             <th
               scope="row"
               class="text-center text-white"
@@ -354,7 +355,7 @@ export default {
 th {
   font-size: 11.5px;
 }
-td:first-child{
+td:first-child {
   font-size: 13.5px;
 }
 
@@ -444,16 +445,16 @@ button {
   background: white;
   color: #9753a0;
 }
-.fa-check{
-  background-color: #00B731;
+.fa-check {
+  background-color: #00b731;
   border-radius: 50%;
   padding: 4px;
-  color:white;
+  color: white;
 }
-.fa-times{
-  background-color: #B70000;
+.fa-times {
+  background-color: #b70000;
   border-radius: 50%;
   padding: 4px 8px;
-  color:white;
+  color: white;
 }
 </style>

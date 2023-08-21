@@ -154,6 +154,7 @@ export default {
   padding: 15px;
   border-radius: 15px;
   height: 100%;
+  min-width: 200px;
 }
 .item,
 .item * {

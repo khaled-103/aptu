@@ -71,6 +71,7 @@ export default {
   top: -170px;
   right: 0;
   width: 100px;
+  z-index: -1;
   /* height: 200px; */
 }
 .footer-back {

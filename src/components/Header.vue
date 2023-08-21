@@ -45,11 +45,11 @@
             :to="{ name: 'bunch' }"
             >الباقات</router-link
           >
-          <router-link
+          <!-- <router-link
             :class="['col-auto', { 'clear-margin': applyMediumScreenStyles }]"
             :to="{ name: 'technicalSupport' }"
             >الدعم الفني</router-link
-          >
+          > -->
         </nav>
       </div>
       <div :class="['col-3', 'd-flex', { resize: applyMediumScreenStyles }]">
@@ -83,9 +83,9 @@
         <router-link class="link" :to="{ name: 'bunch' }"
           ><span>الباقات</span></router-link
         >
-        <router-link class="link" :to="{ name: 'technicalSupport' }"
+        <!-- <router-link class="link" :to="{ name: 'technicalSupport' }"
           ><span>الدعم الفني</span></router-link
-        >
+        > -->
         <div v-show="showSideLinks">
           <div class="holderLink">
             <div class="link ">
