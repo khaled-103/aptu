@@ -2,6 +2,7 @@
   <router-view />
 </template>
 
+
 <style>
 ::-webkit-scrollbar {
   width: 12px;
@@ -23,7 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #a867b1, #7aa0ff);
 }
-#app {
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
