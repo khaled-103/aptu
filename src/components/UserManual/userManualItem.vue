@@ -1,7 +1,7 @@
 <template>
-  <div class="wraper">
-    <div class="row">
-      <router-link :to="{name:'introduction'}" class="col-lg-3 col-md-4 col-12">
+  <div >
+    <div class="d-flex justify-content-center flex-wrap">
+      <router-link :to="{name:'introduction'}" class="mb-5">
         <div class="item">
           <span>1</span>
           <h6 style>المقدمة</h6>
@@ -11,7 +11,7 @@
           </p>
         </div>
       </router-link>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>2</span>
           <h6 style>إعداد الخمس أيام</h6>
@@ -21,7 +21,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>3</span>
           <h6 style>التطبيق</h6>
@@ -31,7 +31,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>4</span>
           <h6 style>الإعداد</h6>
@@ -41,7 +41,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>5</span>
           <h6 style>البيع</h6>
@@ -50,7 +50,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>6</span>
           <h6 style>الشراء</h6>
@@ -60,7 +60,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>7</span>
           <h6 style>المخزون والجرد</h6>
@@ -70,7 +70,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>8</span>
           <h6 style>المحاسبة</h6>
@@ -80,7 +80,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>9</span>
           <h6 style>إدارة الموارد البشرية</h6>
@@ -90,7 +90,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>10</span>
           <h6 style>التصنيع</h6>
@@ -100,7 +100,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>11</span>
           <h6 style>الدعم</h6>
@@ -109,7 +109,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>12</span>
           <h6 style>إنشاء موقع الويب</h6>
@@ -118,7 +118,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>13</span>
           <h6 style>أدوات التعاون</h6>
@@ -128,7 +128,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="mb-5">
         <div class="item">
           <span>14</span>
           <h6 style>مكتبة المعرفة</h6>
@@ -154,7 +154,8 @@ export default {
   padding: 15px;
   border-radius: 15px;
   height: 100%;
-  min-width: 200px;
+  width: 210px;
+  margin: 0 10px 15px 10px;
 }
 .item,
 .item * {
